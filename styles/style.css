@@ -13,6 +13,12 @@
     padding: 0;
 }
 
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 a {
     color: white;
     font-weight: bold;
@@ -33,6 +39,7 @@ header {
 header > h1 {
     font-size: 10vw;
     font-family:var(--fonte1);
+    font-variant: small-caps;
 }
 
 header > p {
@@ -66,9 +73,10 @@ div > p {
 
 .imagem > p {
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.519);
+    background-color: rgba(0, 0, 0, 0.39);
     color: white;
     padding: 5px;
+    text-shadow: 1px 1px 0px 0px black;
 }
 
 #img01 {
